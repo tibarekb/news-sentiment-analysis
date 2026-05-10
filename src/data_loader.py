@@ -1,4 +1,4 @@
-from pandas import pd
+import pandas as pd
 
 def load_data(filepath):
     """Load a stock CSV file and return a clean, date-indexed DataFrame."""
